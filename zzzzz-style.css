@@ -1,0 +1,85 @@
+.upper-text{
+    font-size:25px;
+    color:rgb(64, 63, 63);
+}
+.down-arrow{
+    margin:4px;
+    height:6px;
+    margin-right:60px;
+}
+.upper-layer{
+    display:flex;
+    flex-direction:row;
+    height:100px;
+    justify-content:space-between;
+}
+.first{
+    background-color: aqua;
+    width:400px;
+}
+.book-image-upper{
+    margin-left:100px;
+    height:100px;
+}
+.second{
+    background-color: aqua;
+    display:flex;
+    flex:1;
+    align-items:center;
+}
+.search-bar::placeholder{
+    font-size:20px;
+}
+.search-bar{
+    margin-left:20px;
+    height:44px;
+    border:1px;
+    border-style:solid;
+    border-color:gray;
+    border-radius:2px;
+    font-size:20px;
+    flex:1;
+}
+.search-button{
+    background-color:aqua;
+    transition: opacity 0.5s;
+}
+.search-button:hover{
+    background-color:white;
+    opacity:0.7;
+}
+.search-logo{
+    height:40px;
+    width:40px;
+}
+.third{
+    background-color: aqua;
+    padding-left:100px;
+    display:flex;
+    flex:1;
+    align-items:center;
+}
+.sign-up{
+    margin-left:60px;
+    height:35px;
+    color:white;
+    background-color:black;
+    border-width:0;
+    border-radius:8px;
+    width:100px;
+    margin-right:50px;
+    transition: background-color 0.5s;
+}
+.sign-up:hover{
+    background-color:white;
+    color:aqua;
+}
+.sign-up-p{
+    margin-top:7px;
+    font-size:17px;
+}
+.menu-logo{
+    height:28px;
+    margin-left:24px;
+    margin-right:20px;
+}

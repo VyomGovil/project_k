@@ -1,0 +1,43 @@
+.page{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:15px;
+    margin:50px;
+    text-align:center;
+}
+.book-description{
+    margin-bottom:10px;
+}
+.link-to{
+    cursor:pointer;
+}
+.book-image{
+    height:400px;
+    object-fit:cover;
+}
+.book-about{
+    display: grid;
+    grid-template-columns:40px 1fr;
+    column-gap:8px;
+    align-content:top;
+}
+.author-pic{
+    vertical-align:top;
+}
+.pic{
+    width:100%;
+    border-radius:10px;
+    margin-left:90px;
+}
+.text{
+    
+}
+.book-name{
+    font-size:15px;
+    font-weight:bold;
+    margin-top:0px;
+}
+.book-author{
+    margin-top:4px;
+    color:rgb(112, 111, 111);
+}
